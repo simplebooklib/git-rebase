@@ -1,17 +1,17 @@
 #### 이미지
 
 ```
-> docker images							# 설치된 이미지 목록 조회
-> docker rmi <이미지이름|이미지아이디>:<태그>	# 이미지 삭제
+> docker images		# 설치된 이미지 목록 조회
+> docker rmi <이미지이름|이미지아이디>:<태그>		# 이미지 삭제
 
 ```
 
 #### 컨테이너
 
 ```
-> docker ps								# 실행중인 컨테이너 조회
-> docker ps -a							# 전체 컨테이너 조회
-> docker ps -q							# 컨테이너 ID만 조회
+> docker ps		# 실행중인 컨테이너 조회
+> docker ps -a		# 전체 컨테이너 조회
+> docker ps -q		# 컨테이너 ID만 조회
 > docker start <컨테이너이름|컨테이너아이디>		# 컨테이너 시작
 > docker stop <컨테이너이름|컨테이너아이디>		# 컨테이너 정지
 > docker rm <컨테이너이름|컨테이너아이디>		# 컨테이너 삭제
@@ -39,7 +39,7 @@
 #### 허브
 
 ```
-> docker search 이미지이름				# docker hub에서 이미지 검색
-> docker pull <이미지이름>:<태그>			# 이미지 다운로드
+> docker search 이미지이름		# docker hub에서 이미지 검색
+> docker pull <이미지이름>:<태그>		# 이미지 다운로드
 ```
 
